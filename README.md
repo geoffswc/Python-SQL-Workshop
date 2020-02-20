@@ -13,10 +13,44 @@ Some tasks are most effectively approached with SQL, some are easier with Pandas
 
 Instead of picking a single technolgoy that provies the "best" approach, it may be much more effective to approach a dataset by bringing in a combination of SQL statements, Pandas daframe operations, and user defined methods and programming constructs in Python.
 
-This tutorial will consist of a series of notebooks and tutorial exercises. Rather than discussing SQL, Pandas, and Python methods in the abstract, participants will use SQL, Pandas, and Dataframes on a SQLite database and a set of CSV files to:
+This tutorial will consist of a series of notebooks and tutorial exercises. Rather than discussing SQL, Pandas, and Python methods in the abstract, participants will build a series of jupyter notebooks to:
 
-1. Connect directly to a SQLite, parse results as tuples, and read results directly into a pandas dataframe
+1. Connect directly to a SQLite, write and execute a SQL query, parse results as Python tuples, and read results directly into a Pandas dataframe.
 
-2. Load CSV files directly into a pandas dataframe, and use Pandas set operations such as merge to join tables on a common colum
+2. Load CSV files directly into a Pandas dataframe, and use dataframe operations such as merge to join tables on a common column.
 
-3. 
+3. Use the PandaSQL module to run SQL commands directly against a set of CSV files without the need to create a separate SQL database.
+
+4. Use Pandas, Python, and SQL in concert to analze a dataset, with an emphasis on preparing and formatting data for analysis.
+
+### Prerequisites
+
+This tutorial will be most accessible for participants who have:
+
+1. Basic programming experience with Python, including loops, conditionals, and lists. 
+
+2. Basic Pandas dataframe operations, including indexing, selecting rows, selecting columns, filtering by value, and boolean masks. 
+
+3. Basic SQL knowledge, including SELECT, WHERE, JOIN, GROUP BY, and HAVING statements.
+
+#### Note: Plenty of people learn to program by picking something that looks interesting, tackling an intermediate or advanced topic, and backfilling their knowledge as they keep absorbing and learning. If you thrive on partially understanding things as you learn by doing, feel free to join the workshop without these prereqs. 
+
+## Workbooks
+
+This tutorial consists of a series of notebooks. Further explanatory text is available in the notebook for each section or the tutorial. 
+
+### Python-SQLite
+
+How to directly connect to a SQLite database using Python. How to query the data using SQL, and how to process results by rows of tuples. How to create views, modify data, and create new tables.
+
+### Python-SQL-Pandas
+
+How to read a query directly into a Pandas Dataframe. Advantages and disadvantages of this approach.
+
+### PandaSQL
+
+How to use the Pandasql module to work with CSV files and dataframes directly, without the intermediary step of creating a database.
+
+### Case Studies
+
+Using SQL, Pandas, Python, and PandaSQL to tackle some messy real world examples.
