@@ -54,3 +54,23 @@ How to use the Pandasql module to work with CSV files and dataframes directly, w
 ### Case Studies
 
 Using SQL, Pandas, Python, and PandaSQL to tackle some messy real world examples.
+
+## Setup and Configuration
+
+### Software
+
+To follow along with the material in this workshop, you'll need to install:
+
+DB Browser for SQLite
+https://sqlitebrowser.org
+
+Jupyter Notebook running Python 3.6 or later
+
+### Data
+
+And you'll need to download the following files from https://figshare.com/articles/Portal_Project_Teaching_Database/1314459
+
+species.csv
+surveys.csv
+plots.csv
+portal_mammals.sqlite
