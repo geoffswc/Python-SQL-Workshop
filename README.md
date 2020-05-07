@@ -65,10 +65,12 @@ DB Browser for SQLite
 https://sqlitebrowser.org
 
 Jupyter Notebook running Python 3.6 or later
+https://www.anaconda.com/products/individual
 
 ### Data
 
 And you'll need to download the following files from https://figshare.com/articles/Portal_Project_Teaching_Database/1314459
+
 
 species.csv
 surveys.csv
