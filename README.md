@@ -72,7 +72,7 @@ https://www.anaconda.com/products/individual
 And you'll need to download the following files from https://figshare.com/articles/Portal_Project_Teaching_Database/1314459
 
 
-species.csv
-surveys.csv
-plots.csv
-portal_mammals.sqlite
+1. species.csv
+2. surveys.csv
+3. plots.csv
+4. portal_mammals.sqlite
