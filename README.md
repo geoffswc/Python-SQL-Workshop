@@ -67,6 +67,9 @@ https://sqlitebrowser.org
 Jupyter Notebook running Python 3.6 or later
 https://www.anaconda.com/products/individual
 
+Pandasql (to use sql directly on pandas dataframes, without a SQL database)
+https://pypi.org/project/pandasql/
+
 ### Data
 
 And you'll need to download the following files from https://figshare.com/articles/Portal_Project_Teaching_Database/1314459
